@@ -38,7 +38,7 @@ p{margin:0 0 1em}a{color:var(--p)}
 .nav{display:flex;gap:2px;margin-left:auto}
 .nav a{padding:10px 14px;border-radius:10px;text-decoration:none;color:var(--mut);font-weight:600}.nav a:hover{color:var(--ink);background:var(--s2)}
 .hact{display:flex;gap:8px;align-items:center}.menu-b{display:none}
-@media (max-width:900px){.menu-b{display:grid}.hact{margin-left:auto}
+@media (max-width:1000px){.menu-b{display:grid}.hact{margin-left:auto}
   .nav{position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--s1);border-bottom:1px solid var(--line);padding:8px 16px 16px;display:none}
   .nav.open{display:flex}.nav a{padding:14px}}
 @media (max-width:520px){.hact .btn.wa span{display:none}.hact .btn.wa{width:44px;padding:0}.brand small{display:none}.mk{height:32px}.brand b{font-size:18px}}
@@ -109,6 +109,8 @@ details p{color:var(--mut)}
 .ctab{padding:72px 0;text-align:center;background:var(--ink);color:var(--bg)}
 .ctab h2{max-width:22ch;margin:0 auto 12px}.ctab p{opacity:.8;margin-bottom:24px}
 .ctab .btn.pri{background:var(--a);color:#1C1406}
+.blogger-note{display:flex;gap:14px;align-items:flex-start;margin-top:30px;padding:18px 20px;border-radius:18px;background:var(--as);border:1px solid color-mix(in srgb,var(--a) 40%,var(--line))}
+.blogger-note .ic{width:30px;height:30px;color:#EA580C;flex:none}.blogger-note p{margin:0;color:var(--ink)}
 /* inner pages */
 .phead{padding:clamp(36px,6vw,72px) 0 12px}
 .crumb{font-size:15px;color:var(--mut);margin-bottom:12px}.crumb a{color:var(--mut)}
